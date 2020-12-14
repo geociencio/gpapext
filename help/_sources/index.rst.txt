@@ -1,0 +1,145 @@
+Welcome to gpapExtract's documentation!
+============================================
+
+Contents:
+
+This plugin is the nextstep of Kmzgeopapaimport plugin
+
+.. image:: _static/gpapextcanvas1.png
+   :align: center
+
+Once the gpapExtract Plugin has been installed and activated from the Plugin
+Menu, it can be acceced in the the database Menu
+
+.. image:: _static/gpapcanvas2.png
+   :align: center
+
+Or from the proper icon
+
+gpapExtract Interface
+---------------------
+
+.. image:: _static/1gpapwndw.png
+   :align: center
+
+Parts of Interface
+------------------
+
++----------------------------------+------------------------------------------+
+|.. image:: _static/12gpapwndw.png |Essential parts of the Plugin:            |
+|   :align: left                   |                                          |
+|                                  |1. Select Database                        |
+|                                  |2. Select Folder to Save                  |
+|                                  |3. Select Feature fron Note               |
+|                                  |4. If selected, coordinates will be added |
+|                                  |   in the desired crs, otherwise only the |
+|                                  |   geographic coordinates will be saved   |
+|                                  |5. If 4 is selected the crs can be        |
+|                                  |   obtained from Layer                    |
+|                                  |6. If 4 is selected the crs can be        |
+|                                  |   obtained from Project                  |
+|                                  |7. If 4 is selected the crs can be        |
+|                                  |   obtained from CRS Selector             |
+|                                  |8. Once the crs is selected the code will |
+|                                  |   appear here                            |
+|                                  |9. And the QGIS CRS ID will appear here   |
+|                                  |10. The PROJ string will appear here      |
+|                                  |11. once you have all the fields it is    |
+|                                  |    time to process, an the results will  |
+|                                  |    appear in 13                          |
+|                                  |12. Click here to clear all fields        |
+|                                  |13. Result and file path will appear here |
+|                                  |14. Help (this)                           |
+|                                  |15. Cancel/Ok to exit plugin              |
++----------------------------------+------------------------------------------+
+
+Database window
+---------------
+
+.. image:: _static/2slctdtbs.png
+   :align: center
+
+Select Folder
+-------------
+
+.. image:: _static/5slctdr.png
+   :align: center
+
+Select Form
+-----------
+
+.. image:: _static/6slctfm.png
+   :align: center
+
+Select transformation coords
+----------------------------
+
+.. image:: _static/7addcoord.png
+   :align: center
+
+Click on Layer
+--------------
+
+If 4 is selected the crs can be obtained from Layer
+
+.. image:: _static/9alldats.png
+   :align: center
+
+Click on Project
+----------------
+
+If 4 is selected the crs can be obtained from Project
+
+.. image:: _static/9alldats.png
+   :align: center
+
+Click on CRS Selector
+---------------------
+
+If 4 is selected the crs can be obtained from CRS Selector
+Click on CRS Selcetor
+
+.. image:: _static/9alldats.png
+   :align: center
+
+and choose the CRS
+
+.. image:: _static/8crshlpr.png
+   :align: center
+
+Process Data
+------------
+
+Click on Process to extract data from database and store on csv file
+
+.. image:: _static/10process.png
+  :align: center
+
+Reset Data
+----------
+
+Click on Reset to clear all data
+
+.. image:: _static/9alldats.png
+   :align: center
+
+Get Help
+--------
+
+Click on Help to This
+
+.. image:: _static/9alldats.png
+   :align: center
+
+.. toctree::
+   :maxdepth: 2
+
+   licience
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

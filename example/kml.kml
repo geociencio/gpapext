@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Geopaparazzi Export</name>
+<Style id="red-pushpin">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png
+</href>
+</Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+</IconStyle>
+<ListStyle>
+</ListStyle>
+</Style>
+<Style id="yellow-pushpin">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+</href>
+</Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels" />
+</IconStyle>
+<ListStyle>
+</ListStyle>
+</Style>
+<Style id="bookmark-icon">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal4/icon39.png
+</href>
+</Icon>
+<hotSpot x="16" y="16" xunits="pixels" yunits="pixels" />
+</IconStyle>
+<ListStyle>
+</ListStyle>
+</Style>
+<Style id="camera-icon">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal4/icon38.png
+</href>
+</Icon>
+<hotSpot x="16" y="16" xunits="pixels" yunits="pixels" />
+</IconStyle>
+<ListStyle>
+</ListStyle>
+</Style>
+<Style id="info-icon">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal3/icon35.png
+</href>
+</Icon>
+<hotSpot x="16" y="16" xunits="pixels" yunits="pixels" />
+</IconStyle>
+<ListStyle>
+</ListStyle>
+</Style>
+<Placemark>
+<styleUrl>#info-icon</styleUrl>
+<simpleText>estructural</simpleText>
+<description>
+<![CDATA[
+<h1>estructural</h1>
+<h2>punto</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">punto</td><td style="text-align: left; vertical-align: top; width: 50%;">vajm01</td></tr></tbody></table><h2>tipo de dato</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">dato</td><td style="text-align: left; vertical-align: top; width: 50%;">Veta</td></tr></tbody></table><h2>rumbo</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbo</td><td style="text-align: left; vertical-align: top; width: 50%;">45</td></tr></tbody></table><h2>rumbodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbodir</td><td style="text-align: left; vertical-align: top; width: 50%;">NW</td></tr></tbody></table><h2>echado</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echado</td><td style="text-align: left; vertical-align: top; width: 50%;">45</td></tr></tbody></table><h2>echadodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echadodir</td><td style="text-align: left; vertical-align: top; width: 50%;">NE</td></tr></tbody></table><h2>Litologia</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">litologia:</td><td style="text-align: left; vertical-align: top; width: 50%;">Brecha polimictica (Brp)</td></tr></tbody></table><h2>color en roca fresca</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color fresca</td><td style="text-align: left; vertical-align: top; width: 50%;">verde</td></tr></tbody></table><h2>color en roca alterada</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color alterada</td><td style="text-align: left; vertical-align: top; width: 50%;">negro</td></tr></tbody></table><h2>textura</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">textura:</td><td style="text-align: left; vertical-align: top; width: 50%;">Grainstone</td></tr></tbody></table><h2>de</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">de</td><td style="text-align: left; vertical-align: top; width: 50%;">angdj</td></tr></tbody></table><h2>Estructura sedimentaria</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">estructura sedimentaria</td><td style="text-align: left; vertical-align: top; width: 50%;">plana</td></tr></tbody></table><h2>Espesor de los estratos</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">espesor</td><td style="text-align: left; vertical-align: top; width: 50%;">Gruesos (10cm a 1m)</td></tr></tbody></table><h2>Edad</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">edad</td><td style="text-align: left; vertical-align: top; width: 50%;">Muerto,(Km Ar-Lu)</td></tr></tbody></table><h2>Observaciones</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">Observaciones</td><td style="text-align: left; vertical-align: top; width: 50%;">esto es un comentario</td></tr></tbody></table>]]>
+</description>
+<gx:balloonVisibility>1</gx:balloonVisibility>
+<Point>
+<coordinates>-102.79132,18.562028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#info-icon</styleUrl>
+<simpleText>estructural</simpleText>
+<description>
+<![CDATA[
+<h1>estructural</h1>
+<h2>punto</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">punto</td><td style="text-align: left; vertical-align: top; width: 50%;">vajm02</td></tr></tbody></table><h2>tipo de dato</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">dato</td><td style="text-align: left; vertical-align: top; width: 50%;">Fractura</td></tr></tbody></table><h2>rumbo</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbo</td><td style="text-align: left; vertical-align: top; width: 50%;">23</td></tr></tbody></table><h2>rumbodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbodir</td><td style="text-align: left; vertical-align: top; width: 50%;">NW</td></tr></tbody></table><h2>echado</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echado</td><td style="text-align: left; vertical-align: top; width: 50%;">26</td></tr></tbody></table><h2>echadodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echadodir</td><td style="text-align: left; vertical-align: top; width: 50%;">SW</td></tr></tbody></table><h2>Litologia</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">litologia:</td><td style="text-align: left; vertical-align: top; width: 50%;">Limolita (Lm)</td></tr></tbody></table><h2>color en roca fresca</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color fresca</td><td style="text-align: left; vertical-align: top; width: 50%;">rojo</td></tr></tbody></table><h2>color en roca alterada</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color alterada</td><td style="text-align: left; vertical-align: top; width: 50%;">ocre</td></tr></tbody></table><h2>textura</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">textura:</td><td style="text-align: left; vertical-align: top; width: 50%;">Boundstone</td></tr></tbody></table><h2>de</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">de</td><td style="text-align: left; vertical-align: top; width: 50%;">jy</td></tr></tbody></table><h2>Estructura sedimentaria</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">estructura sedimentaria</td><td style="text-align: left; vertical-align: top; width: 50%;">rizaduras</td></tr></tbody></table><h2>Espesor de los estratos</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">espesor</td><td style="text-align: left; vertical-align: top; width: 50%;">Medianos (3cm a 10cm)</td></tr></tbody></table><h2>Edad</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">edad</td><td style="text-align: left; vertical-align: top; width: 50%;">Austin,(Kcoss Lu-Cz)</td></tr></tbody></table><h2>Observaciones</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">Observaciones</td><td style="text-align: left; vertical-align: top; width: 50%;">uno nueva com</td></tr></tbody></table>]]>
+</description>
+<gx:balloonVisibility>1</gx:balloonVisibility>
+<Point>
+<coordinates>-102.79132,18.562028,0</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<styleUrl>#info-icon</styleUrl>
+<simpleText>estructural</simpleText>
+<description>
+<![CDATA[
+<h1>estructural</h1>
+<h2>punto</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">punto</td><td style="text-align: left; vertical-align: top; width: 50%;">vajm03</td></tr></tbody></table><h2>tipo de dato</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">dato</td><td style="text-align: left; vertical-align: top; width: 50%;">Foliacion S1</td></tr></tbody></table><h2>rumbo</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbo</td><td style="text-align: left; vertical-align: top; width: 50%;">56</td></tr></tbody></table><h2>rumbodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">rumbodir</td><td style="text-align: left; vertical-align: top; width: 50%;">NE</td></tr></tbody></table><h2>echado</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echado</td><td style="text-align: left; vertical-align: top; width: 50%;">23</td></tr></tbody></table><h2>echadodir</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">echadodir</td><td style="text-align: left; vertical-align: top; width: 50%;">SE</td></tr></tbody></table><h2>Litologia</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">litologia:</td><td style="text-align: left; vertical-align: top; width: 50%;">Travertino (Tr)</td></tr></tbody></table><h2>color en roca fresca</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color fresca</td><td style="text-align: left; vertical-align: top; width: 50%;">cafe</td></tr></tbody></table><h2>color en roca alterada</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">color alterada</td><td style="text-align: left; vertical-align: top; width: 50%;">gris</td></tr></tbody></table><h2>textura</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">textura:</td><td style="text-align: left; vertical-align: top; width: 50%;">Grainstone</td></tr></tbody></table><h2>de</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">de</td><td style="text-align: left; vertical-align: top; width: 50%;">vegetales</td></tr></tbody></table><h2>Estructura sedimentaria</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">estructura sedimentaria</td><td style="text-align: left; vertical-align: top; width: 50%;">cruzada</td></tr></tbody></table><h2>Espesor de los estratos</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">espesor</td><td style="text-align: left; vertical-align: top; width: 50%;">Medianos (3cm a 10cm)</td></tr></tbody></table><h2>Edad</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">edad</td><td style="text-align: left; vertical-align: top; width: 50%;">Minas Viejas,(Jo Y-Cz)</td></tr></tbody></table><h2>Observaciones</h2>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="5" cellspacing="2"><tbody><tr><td style="text-align: left; vertical-align: top; width: 50%;">Observaciones</td><td style="text-align: left; vertical-align: top; width: 50%;">esta es otra</td></tr></tbody></table>]]>
+</description>
+<gx:balloonVisibility>1</gx:balloonVisibility>
+<Point>
+<coordinates>-102.788856,18.562114,0</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
